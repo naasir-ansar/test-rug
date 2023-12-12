@@ -1,3 +1,4 @@
 ## MySelf
-I'm Naasir
-SE
+I'm Naasir \n
+SE \n
+formatting
