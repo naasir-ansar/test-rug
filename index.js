@@ -1,7 +1,7 @@
 // Example of a hypothetical unsafe jQuery plugin (DO NOT USE)
 $.fn.unsafePlugin = function(userInput) {
   // Unsafe usage of user input without proper validation
-  this.html("<div>" + userInput + "</div>");
+  this.html("<h1>" + userInput + "</h1>");
 };
 
 // Usage of the unsafe plugin
