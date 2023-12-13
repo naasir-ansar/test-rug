@@ -24,6 +24,9 @@ function removeTask(index) {
   }
 }
 
+// Intentional error: Incorrect console log function
+console.loggg("This intentional error will cause a code quality issue");
+
 // Example usage:
 addTask({ description: "Math homework", completed: false });
 addTask({ description: "Science project", completed: false });
