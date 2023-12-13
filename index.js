@@ -1,19 +1,8 @@
-// TODO: Fix this insecure function
-function vulnerableFunction() {
-  // Vulnerable code here
-  // Needs security review
-}
+// Example of a hypothetical unsafe jQuery plugin (DO NOT USE)
+$.fn.unsafePlugin = function(userInput) {
+  // Unsafe usage of user input without proper validation
+  this.html("<div>" + userInput + "</div>");
+};
 
-// FIXME: Potential security issue here
-const insecureVariable = "some data";
-
-// DEBUG: Remove this line before production
-console.log("Debug information");
-
-// NOTE: This area needs careful inspection
-// for security vulnerabilities
-
-// OPTIMIZE: Security improvements needed here
-function insecureOptimization() {
-  // Code that needs security enhancements
-}
+// Usage of the unsafe plugin
+$("#targetElement").unsafePlugin("<script>alert('Vulnerable!')</script>");
