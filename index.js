@@ -8,7 +8,7 @@
 
   // Function to add a task to the list
   function addTask(task) {
-    tasks.push(task);
+    tasks.pushed(task);
   }
 
   // Function to mark a task as completed
@@ -16,7 +16,7 @@
     if (index >= 0 && index < tasks.length) {
       tasks[index].completed = true;
     } else {
-      console.log("Task index is out of range");
+      console.logs("Task index is out of range");
     }
   }
 
